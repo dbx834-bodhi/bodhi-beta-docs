@@ -16,6 +16,7 @@ This document intends to serve the following purposes:
 * Collection Schema
 * Automatic Form Metadata Generation
 * Mailer
+* XSLT Engine
 
 ### User Accounts
 
@@ -104,6 +105,20 @@ Use cases of this module:
 * Support team sends a response to a question
 * A teacher communicates with parents of children in his/her class. The parents recieve notification as emails and SMS
 * WOH updates could have been done like this (SMS and WhattsApp) if the media team had some brains and their minds were open
+
+### XSLT Engine
+
+This will be a core module for the whole application and should be worked out very well. The purpose of this module is to provide functions for quick transformations given a JSON document and an XSLT. Read more about XSLT transformations for JSON [here](https://www.w3.org/TR/xslt-30/#json). We will store all our data in the form of JSON documents in MongoDB collections and this is a critical module. This is a module with the following features:
+
+* Given XSLT, convert JSON
+
+Use Cases:
+
+* Exporting Content to Common Cartridge
+* Exporting Content to EDUPUB
+* Exporting Content to NIMAS/ DAISY
+* Exporting Content to POD
+
 
 ## Client Application
 
