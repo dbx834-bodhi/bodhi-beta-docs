@@ -2,6 +2,17 @@
 
 > this text will be pushed to the right
 
+## Core Modules
+* User Accounts
+* User Profile
+* User Roles
+
+### User Accounts
+
+A client-server module
+
+---
+
 ## Reusable Components
 * Grid
 * Graphical Builder
