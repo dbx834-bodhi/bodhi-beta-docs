@@ -6,6 +6,7 @@
 * Grid
 * Graphical Builder
 * Uploader
+* History
 
 ### Grid
 
@@ -50,3 +51,26 @@ This will be a client-server component with the following features:
 * The document will have the form of a list, where each list-item represents a block
 
 ### Uploader
+
+The client-server component should have the following properties:
+
+* Upload directly to S3
+* Show progress
+* Setting headers must be configurable. Some files will be public, like images. Other files will be private, and will be accessible by only some users.
+* On successful upload, file information should be added to the document we are working on in the collection
+
+Candidates : [react-s3-uploader](https://github.com/odysseyscience/react-s3-uploader)
+
+### History
+
+This is a server side component that shall have the following features:
+
+* Purpose: "log events for any item"
+* Attach a history JSON block to any document in any collection
+* When viewing the item, the history block renders as a well-formatted block, in the form of a timeline, of the actions taken
+* Show only 5 most recent events, hide the rest. Show 'view complete history' - when user clicks this, show full history
+* Each event in history should be in the form of "Who did what, when" (ex. "User1 edited blog-entry-123, 12:30:30 PM")
+* Enable limiting history to 'x'.
+
+
+
