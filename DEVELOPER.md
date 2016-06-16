@@ -24,12 +24,12 @@ A client-server table component with the following features:
 * Sortable columns
 * Full text search on (selected) columns
 * Data import
-⋅⋅* (Integrates with the Uploader component)
-⋅⋅* Drag and drop a CSV or Excel file onto the grid
-⋅⋅* Also, the uploader can be opened through a button
-⋅⋅* The file is uploaded to S3 file server
-⋅⋅* The file is processed
-⋅⋅* As the file is being processed, for each line, a record is added and validated against some schema - and the table is updated (This should be reactive)
+  * (Integrates with the Uploader component)
+  * Drag and drop a CSV or Excel file onto the grid
+  * Also, the uploader can be opened through a button
+  * The file is uploaded to S3 file server
+  * The file is processed
+  * As the file is being processed, for each line, a record is added and validated against some schema - and the table is updated (This should be reactive)
 
 
 ### Graphical Builder
