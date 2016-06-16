@@ -8,11 +8,6 @@ This document intends to serve the following purposes:
 * be a semi-technical overview
 * be a meeting point between developers and everybody else
 
-After reading this guide, you’ll know about:
-
-1. The features of the client-side Bodhi App, which is an extension of the Generic App
-2. The features of various modules
-
 ## Client application
 
 These set of documents aim to capture what the client-side application should be like. It aims to list out functionality, user interfaces and user interactions.
