@@ -147,7 +147,7 @@ The purpose of this module is to define user interface for the sidebar of the ap
 
 * The workarea is the remaining space (white space in the image below)
 
-[Bodhi Core](https://bodhi-beta.com/assets-docs/img/app_core.png "Bodhi Core")
+![Bodhi Core](https://bodhi-beta.com/assets-docs/img/app_core.png "Bodhi Core")
 
 ## Reusable Components
 * Grid
