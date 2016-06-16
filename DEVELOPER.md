@@ -1,12 +1,14 @@
 # Developer
 
 This document intends to serve the following purposes:
+
 * Software Requirement Spefification
 * List out all features of the application
 * Be a checklist for what is done and what is not done
 * List out all features that we want in the future
 
 ## Core Modules/ Packages
+
 * User Accounts
 * User Profile
 * User Roles
