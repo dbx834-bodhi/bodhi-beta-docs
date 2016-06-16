@@ -108,7 +108,7 @@ Use cases of this module:
 
 ## Client Application
 
-The purpose of this section is to define generic functionality, user interface and user interactions that should be in the client app. We will use the beautiful [Metronic App Template](http://keenthemes.com/preview/metronic/theme/admin_1_rounded/) as inspiration and reference for user interface elements. Please note that we don't have to copy everything. Metronic does many things well and is a good place to learn.
+The purpose of this section is to define generic functionality, user interface and user interactions that should be in the client app. We will use the beautiful [Metronic App Template](http://keenthemes.com/preview/metronic/theme/admin_1_rounded/) as inspiration and reference for user interface elements. Please note that we don't have to copy everything. Metronic does many things well and is a good place to learn. The client application will have these generic modules:
 
 * Base
 * Sidebar
