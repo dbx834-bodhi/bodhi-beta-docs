@@ -6,6 +6,7 @@ This document intends to serve the following purposes:
 * List out all features of the application
 * Be a checklist for what is done and what is not done
 * List out all features that we want in the future
+* A semi-technical overview - a meeting point for developers and everybody else
 
 ## Core Modules/ Packages
 
