@@ -16,7 +16,6 @@ This document intends to serve the following purposes:
 * Collection Schema
 * Automatic Form Metadata Generation
 * Mailer
-* ClientCore
 
 ### User Accounts
 
