@@ -1,5 +1,11 @@
 # Developer
 
+This document intends to serve the following purposes:
+* Software Requirement Spefification
+* List out all features of the application
+* Be a checklist for what is done and what is not done
+* List out all features that we want in the future
+
 ## Core Modules/ Packages
 * User Accounts
 * User Profile
@@ -106,6 +112,7 @@ The purpose of this section is to define generic functionality, user interface a
 
 ### Base
 
+* Detect if there is no internet and show a blocking message (i.e, user should not be able to do anything)
 
 ### Sidebar
 
