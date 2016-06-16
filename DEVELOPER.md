@@ -148,6 +148,31 @@ The purpose of this module is to define user interface for the sidebar of the ap
 
 ![Bodhi Core](https://bodhi-beta.com/assets-docs/img/app_core.png "Bodhi Core")
 
+## Bodhi Specific Modules
+
+* Lesson Plan Manager
+* Course Builder
+* Assesment Manager
+
+### Lesson Plan Manager
+
+
+### Course Builder
+
+
+### Assesment Manager
+
+
+
+## Bodhi ERP
+
+* User Database
+
+### User Database
+
+* A user could be a teacher, parent/student, admin - anybody
+* Each user would have roles assigned to it
+
 ## Reusable Components
 * Grid
 * Graphical Builder
