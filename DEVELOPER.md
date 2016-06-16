@@ -1,4 +1,4 @@
-# Developer
+# Developer Docs
 
 This document intends to serve the following purposes:
 
@@ -19,6 +19,8 @@ This document intends to serve the following purposes:
 * ClientCore
 
 ### User Accounts
+
+The purpose of this module is to provide basic functions necessary for user accounts.
 
 ### User Profile
 
@@ -73,9 +75,10 @@ The purpose of this module is to automate many communication operations. This is
 * Groups (Mailing List)
   * Show a list of groups
   * Uses the [Grid component](https://bodhi-beta.com/docs/developer#developer-reusable-components-grid)
-  * Each record must have email
-  * For each email, check it's health (it exists)
-  * Optionally, there can be a phone number too
+  * A group has name, emails, and optionally a phone number
+    * Each record must have email
+    * For each email, check it's health (it exists)
+    * Optionally, there can be a phone number too
 * Design and Send
   * Uses the [Graphical Builder component](https://bodhi-beta.com/docs/developer#developer-reusable-components-graphical-builder)
   * Preview the mail
@@ -105,7 +108,7 @@ Use cases of this module:
 
 ## Client Application
 
-The purpose of this section is to define generic functionality, user interface and user interactions that should be in the client app.
+The purpose of this section is to define generic functionality, user interface and user interactions that should be in the client app. We will use the beautiful [Metronic App Template](http://keenthemes.com/preview/metronic/theme/admin_1_rounded/) as inspiration and reference for user interface elements. Please note that we don't have to copy everything. Metronic does many things well and is a good place to learn.
 
 * Base
 * Sidebar
@@ -115,19 +118,36 @@ The purpose of this section is to define generic functionality, user interface a
 
 ### Base
 
+The purpose of this module is to define generic behind-the scenes functionality of the app. This is a module with the following features:
+
 * Detect if there is no internet and show a blocking message (i.e, user should not be able to do anything)
 
 ### Sidebar
 
+The purpose of this module is to define user interface for the sidebar of the app. This is a module with the following features:
+
+* The sidebar should be docked on the left
+* It should somewhat be like the sidebar in [Metronic App Template](http://keenthemes.com/preview/metronic/theme/admin_1_rounded/) but more traditional
+* It should be fixed (Try 'fixing' the sidebar in the template in the settings menu)
+* The sidebar should be scrollable in and of itself - reaching bottom of the sidebar should not change anything in the UI anywhere else. See the sidebar in [Asana App](https://app.asana.com/)
+* The sidebar should have links to everything one can do
+* The links should be presented in dropdown-style menus with contextual headings
 
 ### Header
 
-
-### WorkArea
-
+* The header should be fixed
 
 ### Accounts
 
+* Log out
+* View profile
+* Update profile
+
+### WorkArea
+
+* The workarea is the remaining space (white space in the image below)
+
+[Bodhi Core](https://bodhi-beta.com/assets-docs/img/app_core.png "Bodhi Core")
 
 ## Reusable Components
 * Grid
