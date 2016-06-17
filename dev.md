@@ -30,3 +30,14 @@ Meteor is the javascript framework we will use to build our application. A packa
 ## SIF Compliance
 
 The Schools Interoperability Framework, or SIF, is a data sharing open specification for academic institutions. Bodhi implements SIF 3.0. [This document](https://bodhi-beta.com/docs/developer/schools-interoperability-framework-compliance) describes this adoption in greater detail.
+
+## Knowledge base
+
+A very important part of Bodhi will be it's knowledge base. The purpose of having such a support system is to **enable successful implementation and adoption of Bodhi** when an end-user chooses to subscribe to Bodhi. The knowledge base can be categorised as, 
+
+* Static knowledge base - guides and tutorials, support articles, frequently-asked-questions, video tutorials, etc
+* Responsive support - contact us form, ticketing, forums, call support, training
+
+### References
+
+[1] A very good model to follow is the [implementation by PowerSchools](http://www.powerschool.com/implementation/).
