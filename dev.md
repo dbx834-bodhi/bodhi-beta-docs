@@ -33,9 +33,6 @@ The Schools Interoperability Framework, or SIF, is a data sharing open specifica
 
 ## Knowledge base
 
-> ### References
-> [1] A very good model to follow is the [implementation by PowerSchools](http://www.powerschool.com/implementation/).
-
 A very important part of Bodhi will be it's knowledge base. The purpose of having such a support system is to **enable successful implementation and adoption of Bodhi** when an end-user subscribe to Bodhi. The knowledge base can be categorised as, 
 
 * Static knowledge base - guides and tutorials, support articles, introductory articles, frequently-asked-questions, video tutorials, introductory videos, articles about use cases and benefits, etc
@@ -43,4 +40,5 @@ A very important part of Bodhi will be it's knowledge base. The purpose of havin
 
 These set of documents define what this knowledge should be like.
 
-
+> ### References
+> [1] A very good model to follow is the [implementation by PowerSchools](http://www.powerschool.com/implementation/). They assign _one person to each subscriber for one year_. Quoted, "An expert PowerSchool 'buddy' will be assigned who will assist during your crucial first year and beyond with PowerSchool"
