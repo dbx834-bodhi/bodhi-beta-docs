@@ -1,4 +1,4 @@
-# Bodhi App Specific Modules
+# Modules Specific to Bodhi App
 
 * Lesson Plan Manager
 * Course Builder
@@ -14,9 +14,10 @@ A lesson plan is a teacher's detailed description of the course of instruction, 
 * New Lesson Plan
   * Implement the [graphical builder](https://bodhi-beta.com/docs/developer/core-react-components#-reusable-components-graphical-builder)
   * A list of pre-built editable blocks are shown. 
+* Edit Lesson Plan
+  * 
 
 Editable blocks for the lesson plan follow,
-
 
 ## Course Builder
 
@@ -37,12 +38,33 @@ Enable educator-learner communication.
 * Implement the [mailer module](https://bodhi-beta.com/docs/developer/core-modules#-core-modules-packages-mailer)
 * The group should be pre-populated with people who are subscribed to the educator's class
 
-# Modules specific to Bodhi ERP for Schools
+# Bodhi ERP for Schools
 
+
+## Modules specific to Bodhi ERP
 
 * User Database
+* Registrations and Admissions
+* Fee Deposit
+* Attendance
+* Transport management
+* Library data
+* Assignments
+* Health management
 
 ### User Database
 
-* A user could be a teacher, parent/student, admin - anybody
-* Each user would have roles assigned to it
+### Registrations and Admissions
+
+### Fee Deposit
+
+### Attendance
+
+### Transport management
+
+### Library data
+
+### Assignments
+
+### Health management
+
