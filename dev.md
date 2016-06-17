@@ -23,6 +23,6 @@ Meteor is the javascript framework we will use to build our application. A packa
 * React is a library that we will use to implement our user interfaces. We will have a set of components that we will use in many places. [This document](https://bodhi-beta.com/docs/developer/core-react-components) describes these re-usable components.
 * 'Bodhi Specific Packages' are those that will make our actual application work. These packages will be based on core packages. [This document](https://bodhi-beta.com/docs/developer/bodhi-specific-modules) describes these packages.
 
-## Schools Interoperability Framework Compliance
+## SIF Compliance
 
 The Schools Interoperability Framework, or SIF, is a data sharing open specification for academic institutions. Bodhi implements SIF 3.0. [This document](https://bodhi-beta.com/docs/developer/schools-interoperability-framework-compliance) describes this adoption in greater detail.
