@@ -33,7 +33,7 @@ The Schools Interoperability Framework, or SIF, is a data sharing open specifica
 
 ## Knowledge base
 
-A very important part of Bodhi will be it's knowledge base. The purpose of having such a support system is to **enable successful implementation and adoption of Bodhi** when an end-user chooses to subscribe to Bodhi. The knowledge base can be categorised as, 
+A very important part of Bodhi will be it's knowledge base. The purpose of having such a support system is to **enable successful implementation and adoption of Bodhi** when an end-user subscribe to Bodhi. The knowledge base can be categorised as, 
 
 * Static knowledge base - guides and tutorials, support articles, introductory articles, frequently-asked-questions, video tutorials, introductory videos, articles about use cases and benefits, etc
 * Responsive support - contact us form, ticketing, forums, call support, training, etc
