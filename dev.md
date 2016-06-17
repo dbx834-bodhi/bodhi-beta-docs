@@ -40,6 +40,7 @@ A very important part of Bodhi will be it's knowledge base. The purpose of havin
 
 These set of documents define what this knowledge should be like.
 
-### References
+> ### References
 
-[1] A very good model to follow is the [implementation by PowerSchools](http://www.powerschool.com/implementation/).
+> [1] A very good model to follow is the [implementation by PowerSchools](http://www.powerschool.com/implementation/).
+
