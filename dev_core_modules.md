@@ -29,6 +29,8 @@ JSON based Access Control. Roles determine what can see what, and do what. This 
 
 * Collection Schema
 * Collection Helpers
+* Collection Filters
+* Collection Timestamps
 
 ### Collection Schema
 
@@ -53,10 +55,19 @@ The purpose of this package is to create helper functions that create transforma
 * These functions may have any kind of logic
 * They can be called on the client or on the server
 
-## Form Handling Packages
+### Collection Filters
+
+https://atmospherejs.com/doctorpangloss/filter-collections
+
+### Collection Timestamps
+
+https://atmospherejs.com/zimme/collection-timestampable
+
+## Form/Data Handling Packages
 
 * Automatic Form Metadata Generation
 * Autocomplete
+* Validator
 
 ### Automatic Form Metadata Generation
 
@@ -74,6 +85,10 @@ The purpose of this package is to enable attaching an autocompelter with any inp
 * Attach auto-complete to an input
 * Fetch data from the server
 * Update suggestions as the user types
+
+### Validator
+
+https://www.npmjs.com/package/validator
 
 ## Communications Packages
 
@@ -126,15 +141,50 @@ Use cases of this package:
 
 ### Mail Scheduler
 
+* Schedule mails in the future
+
+## Reporting Packages
+
+* Charts
+* PDF Generator
+
+### Charts
+
+Reusable charts
+
+https://www.npmjs.com/package/d3.chart
+
+### PDF Generator
+
 ## Other Packages
 
 * XSLT Engine
 * Scheduled Tasks
 * AWS API
+* Method Hooks
+* Loading
+* Numeral Formatter
+* Date Formatter
+* Logging
+* XML DOM Parser
+* Create ZIP
+* XML Builder
+* CSV Parser
+* XML to JSON
+* Keypress Event Binder
+* Filesize
+* Image toolkit
+* HTML Encoder
+* WalkDir
+* CamelCase
+* UnCamelCase
+* Sanitise Filenames
+* HTML Generation on the Server
+* Random
 
 ### XSLT Engine
 
-This will be a core package for the whole application and should be worked out very well. The purpose of this package is to provide functions for quick transformations given a JSON document and an XSLT. Read more about XSLT transformations for JSON [here](https://www.w3.org/TR/xslt-30/#json). We will store all our data in the form of JSON documents in MongoDB collections and this is a critical package. This is a package with the following features:
+This will be a core package for the whole application and should be worked out very well. The purpose of this package is to provide functions for quick transformations given a XSLT. Read more about XSLT transformations for JSON [here](https://www.w3.org/TR/xslt-30/#json). We will store all our data in the form of JSON documents in MongoDB collections and this is a critical package. This is a package with the following features:
 
 * Given XSLT, convert JSON
 
@@ -152,15 +202,105 @@ The purpose of this package is to create cron jobs that run at a particular time
 * Define a job on the server
 * Run the job automatically
 
+https://www.npmjs.com/package/cron
+
 ### AWS API
 
 We will not store _any_ data locally (where the application is installed), rather we will use S3 File server for storing files. This is a standard AWS API implementation.
 
+https://www.npmjs.com/package/aws-sdk
 
+### Method Hooks
 
+The purpose of this package is to attach hooks on any function and do something _before_ or _after_ that function. Note, that this only server-side. This is a package with the following features:
 
+* The 'before function' can block execution
 
+https://atmospherejs.com/doctorpangloss/method-hooks
 
+### Loading
 
+Show a loading screen on first load as the user waits.
 
+https://atmospherejs.com/pcel/loading
 
+### Numeral Formatter
+
+https://atmospherejs.com/numeral/numeral
+http://numeraljs.com/
+
+### Date Formatter
+
+https://www.npmjs.com/package/moment
+http://momentjs.com/docs/
+
+### Logging
+
+https://www.npmjs.com/package/winston
+
+### XML DOM Parser
+
+https://www.npmjs.com/package/xmldom
+
+### Create ZIP
+
+https://www.npmjs.com/package/archiver
+
+https://www.npmjs.com/package/decompress-zip
+
+### XML Builder
+
+https://www.npmjs.com/package/xmlbuilder
+
+### CSV Parser
+
+https://www.npmjs.com/package/csv
+
+### XML to JSON
+
+https://www.npmjs.com/package/xml2json
+
+### Keypress Event Binder
+
+https://www.npmjs.com/package/keypress
+
+### Filesize
+
+https://www.npmjs.com/package/filesize
+
+### Image Toolkit
+
+https://www.npmjs.com/package/imagemagick
+https://github.com/aheckmann/gm
+
+### Redux Logger
+
+https://www.npmjs.com/package/redux-logger
+
+### HTML Encoder
+
+https://www.npmjs.com/package/he
+
+### Walk Dir
+
+https://www.npmjs.com/package/walkdir
+
+### CamelCase
+
+https://www.npmjs.com/package/camelcase
+
+### UnCamelCase
+
+https://github.com/sindresorhus/decamelize
+
+### Sanitize Filenames
+
+https://www.npmjs.com/package/sanitize-filename
+
+### HTML Generation on the Server
+
+https://github.com/cheeriojs/cheerio
+
+### Random
+
+https://atmospherejs.com/meteor/random
