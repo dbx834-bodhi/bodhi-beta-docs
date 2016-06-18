@@ -139,7 +139,7 @@ Use cases of this package:
 * A teacher communicates with parents of children in his/her class. The parents recieve notification as emails and SMS
 * WOH updates could have been done like this (SMS and WhattsApp) if the media team had some brains and their minds were open
 
-#### [Mailer API](https://bodhi-beta.com/docs/developer/core-packages/api/mailer)
+**[Mailer API](https://bodhi-beta.com/docs/developer/core-packages/api/mailer)**
 
 ### Mail Scheduler
 
