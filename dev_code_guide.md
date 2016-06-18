@@ -22,9 +22,35 @@ We will follow the [Airbnb JS style guide](https://github.com/airbnb/javascript)
 
 ## Meteor Specific Code Style
 
-* [Meteor guide on Collections](http://guide.meteor.com/code-style.html#collections)
-* [Meteor guide on Methods](http://guide.meteor.com/code-style.html#methods-and-publications)
-* [Meteor guide on Files, exports, and packages](http://guide.meteor.com/code-style.html#files-and-exports)
+> ```javascript
+> Note: Methods are camelCased and namespaced to the module they belong to
+> // in imports/api/todos/methods.js
+> updateText = new ValidatedMethod({
+>   name: 'todos.updateText',
+>   // ...
+> });
+> ```
+
+> ```javascript
+> // If you have a file that exports a class
+> export default class ClickCounter { ... }
+> // This class should be defined inside a file called ClickCounter.js.
+> ```
+
+> ```javascript
+> // When you import it, it’ll look like this
+> import ClickCounter from './ClickCounter.js';
+> // Note that imports use relative paths, and include the file extension at the end of the file name.
+> ```
+
+1 [Meteor guide on Collections](http://guide.meteor.com/code-style.html#collections)
+2 [Meteor guide on Methods](http://guide.meteor.com/code-style.html#methods-and-publications)
+  1 Method names should be camelCased
+  2 Method names should be namespaced to the module they are in
+1 [Meteor guide on Files, exports, and packages](http://guide.meteor.com/code-style.html#files-and-exports)
+  1 Each file in the app should represent one logical module
+  2 Avoid having catch-all utility modules that export a variety of unrelated functions and symbols
+  3 The file should be named the same as the thing it defines, with the same capitalization
 
 Notes: 
 
