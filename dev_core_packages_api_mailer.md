@@ -1,1 +1,4 @@
-# Mailer API
+# Introduction
+
+Welcome to Mailer API!
+
