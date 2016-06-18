@@ -13,11 +13,16 @@ This document has been inspired by [this article](http://guide.meteor.com/code-s
 ## Before proceeding
 
 * Please read the [Code Style by Meteor](http://guide.meteor.com/code-style.html) before proceeding
-* We will follow the [Airbnb style guide](https://github.com/airbnb/javascript) for our javascript
 * [Install ESLint](http://guide.meteor.com/code-style.html#eslint-installing)
 * [Integrate ESLint with your editor](http://guide.meteor.com/code-style.html#eslint-editor)
 
-## Rules for Collections
+## Javascript Code Style
+
+We will follow the [Airbnb style guide](https://github.com/airbnb/javascript) for our javascript
+
+## Meteor Specific Code Style
+
+### Database: Collections
 
 > ```javascript
 > // Defining a collection
@@ -26,4 +31,5 @@ This document has been inspired by [this article](http://guide.meteor.com/code-s
 
 * Collections should be named as a **plural noun**, in **PascalCase**.
 * The name of the collection in the database should be the same as the name of the JavaScript symbol.
+* Fields in the collection should be camelCased (just like JavaScript variable names).
 
