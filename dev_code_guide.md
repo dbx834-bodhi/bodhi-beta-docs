@@ -1,6 +1,6 @@
 # Introduction
 
-This document has been inspired by [this article](http://guide.meteor.com/code-style.html) by Meteor. It is an extension of the document for Bodhi code.
+This document has been inspired by [this article](http://guide.meteor.com/code-style.html) by Meteor.
 
 ## Benefits of Consistent Style
 
@@ -22,31 +22,9 @@ We will follow the [Airbnb JS style guide](https://github.com/airbnb/javascript)
 
 ## Meteor Specific Code Style
 
-### Collections
-
-> ```javascript
-> // Defining a collection
-> People = new Mongo.Collection('People');
->
-> // Inserting a document with camelCased field names
-> People.insert({
->   firstName: 'Nikola',
->   lastName: 'Tesla.'
-> });
->
-> ```
-
-* Collections should be named as a **plural noun**, in **PascalCase**.
-* The name of the collection in the database should be the same as the name of the JavaScript symbol.
-* Fields in the collection should be camelCased (just like JavaScript variable names).
-
-### Publications
-
-### Methods
-
-### Files
-
-### Export and Import
+* [Meteor guide on Collections](http://guide.meteor.com/code-style.html#collections)
+* [Meteor guide on Methods](http://guide.meteor.com/code-style.html#methods-and-publications)
+* [Meteor guide on Files, exports, and packages](http://guide.meteor.com/code-style.html#files-and-exports)
 
 ## React Template Code Style
 
