@@ -26,6 +26,10 @@ We will follow the [Airbnb JS style guide](https://github.com/airbnb/javascript)
 * [Meteor guide on Methods](http://guide.meteor.com/code-style.html#methods-and-publications)
 * [Meteor guide on Files, exports, and packages](http://guide.meteor.com/code-style.html#files-and-exports)
 
+Notes: 
+
+* Collections
+
 ## React Template Code Style
 
 We will follow the [Airbnb react style guide](https://github.com/airbnb/javascript/tree/master/react) for our JSX
