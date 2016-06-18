@@ -133,6 +133,8 @@ The purpose of this package is to automate many communication operations. This i
 * Future Ideas:
   * Integrate with [WhattsApp](http://whatsmate.github.io/2016-02-17-send-whatsapp-message-nodejs/)
 
+**[Mailer API](https://bodhi-beta.com/docs/developer/core-packages/api/mailer)**
+
 Use cases of this package:
 
 * Support team sends a response to a question
