@@ -12,6 +12,10 @@ This document intends to serve the following purposes:
 * be a semi-technical overview
 * be a meeting point between developers and everybody else
 
+## Code Guide
+
+Guidelines for Bodhi code. The Bodhi App must have consistent code style. [Read the guide](https://bodhi-beta.com/docs/developer/code-guide).
+
 ## Client application
 
 These set of documents define what the client-side application should be like. It lists out functionality, user interfaces and user interactions.
