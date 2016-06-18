@@ -18,7 +18,7 @@ This document has been inspired by [this article](http://guide.meteor.com/code-s
 
 ## Javascript Code Style
 
-We will follow the [Airbnb JS style guide](https://github.com/airbnb/javascript) for our javascript
+We will follow the [Airbnb JS style guide](https://github.com/airbnb/javascript) for our JS
 
 ## Meteor Specific Code Style
 
@@ -28,4 +28,4 @@ We will follow the [Airbnb JS style guide](https://github.com/airbnb/javascript)
 
 ## React Template Code Style
 
-We will follow the [Airbnb react style guide](https://github.com/airbnb/javascript/tree/master/react)
+We will follow the [Airbnb react style guide](https://github.com/airbnb/javascript/tree/master/react) for our JSX
