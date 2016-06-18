@@ -1,24 +1,22 @@
-## Core Modules/ Packages
+# Core Packages
+
+## User Packages
 
 * User Accounts
 * User Profile
 * User Roles
-* Collection Schema
-* Automatic Form Metadata Generation
-* Mailer
-* XSLT Engine
 
 ### User Accounts
 
-The purpose of this module is to provide basic functions necessary for user accounts.
+The purpose of this package is to provide basic functions necessary for user accounts.
 
 ### User Profile
 
-This module consists of a collection with un-defined schema (i.e, the schema is dynamic). Other modules will build on this module. This module will essentially be a set of APIs to query the collection.
+This package consists of a collection with un-defined schema (i.e, the schema is dynamic). Other packages will build on this package. This package will essentially be a set of APIs to query the collection.
 
 ### User Roles
 
-JSON based Access Control. Roles determine what can see what, and do what. This is a module with the following features:
+JSON based Access Control. Roles determine what can see what, and do what. This is a package with the following features:
 
 * Roles should be independent of user information
 * Each role can perform a number of actions
@@ -27,10 +25,14 @@ JSON based Access Control. Roles determine what can see what, and do what. This 
 * There should be a very simple API (because we need ubiquitous role checking throught the application)
   * The API should answer 'CAN ROLE DO TASK' (returning True/False)
 
+## Collection Packages
+
+* Collection Schema
+* Collection Helpers
 
 ### Collection Schema
 
-This will be a core module for the whole application and should be worked out very well. The purpose of this module is to define structure of the data and attach validators and hydrators to it. This is essentially defensive code to check and confirm the structure of data as it goes into a collection. Any collection that will have CRUD operations **must** have schemas attached to it. This is a module with the following features:
+This will be a core module for the whole application and should be worked out very well. The purpose of this package is to define structure of the data and attach validators and hydrators to it. This is essentially defensive code to check and confirm the structure of data as it goes into a collection. Any collection that will have CRUD operations **must** have schemas attached to it. This is a package with the following features:
 
 * Declare a schema (a JSON object) that defines structure of the data
 * Attach validators to fields
@@ -41,20 +43,46 @@ This will be a core module for the whole application and should be worked out ve
 * Attach hydrators to fields (A hydrator is a function that returns some data, for example return a list of countries in the country dropdown)
   * A hydrator can be static array
   * Or, a function that returns data
-  * (The hydrator will be used in the Automatic Form Metadata Generation module)
+  * (The hydrator will be used in the Automatic Form Metadata Generation package)
+
+### Collection Helpers
+
+The purpose of this package is to create helper functions that create transformations on the data. This is a package with the following features:
+
+* Define transformation functions on the collection
+* These functions may have any kind of logic
+* They can be called on the client or on the server
+
+## Form Handling Packages
+
+* Automatic Form Metadata Generation
+* Autocomplete
 
 ### Automatic Form Metadata Generation
 
-This will be a core module for the whole application and should be worked out very well. The purpose of this module is to automate many of the Write/Edit operations. This is a module with the following features:
+This will be a core package for the whole application and should be worked out very well. The purpose of this package is to automate many of the Write/Edit operations. This is a package with the following features:
 
-* Whenever a user wants to create something or edit something, this module should generate a JSON object with 'metadata'
+* Whenever a user wants to create something or edit something, this package should generate a JSON object with 'metadata'
 * The metadata should be generated based upon the schema attached to the collection
 * It should contain validators that have to be run on the client with associated error trace messages
 * It should contain hydration data for fields, either from fields (in the case we are modifing a document), or from functions
 
+### Autocomplete
+
+The purpose of this package is to enable attaching an autocompelter with any input, and linking it to a server hydration source. This is a package with the following features:
+
+* Attach auto-complete to an input
+* Fetch data from the server
+* Update suggestions as the user types
+
+## Communications Packages
+
+* Mailer
+* Mail Scheduler
+
 ### Mailer
 
-The purpose of this module is to automate many communication operations. This is a module with the following features:
+The purpose of this package is to automate many communication operations. This is a package with the following features:
 
 * Templates
   * Server side default templates
@@ -90,15 +118,23 @@ The purpose of this module is to automate many communication operations. This is
 * Future Ideas:
   * Integrate with [WhattsApp](http://whatsmate.github.io/2016-02-17-send-whatsapp-message-nodejs/)
 
-Use cases of this module:
+Use cases of this package:
 
 * Support team sends a response to a question
 * A teacher communicates with parents of children in his/her class. The parents recieve notification as emails and SMS
 * WOH updates could have been done like this (SMS and WhattsApp) if the media team had some brains and their minds were open
 
+### Mail Scheduler
+
+## Other Packages
+
+* XSLT Engine
+* Scheduled Tasks
+* AWS API
+
 ### XSLT Engine
 
-This will be a core module for the whole application and should be worked out very well. The purpose of this module is to provide functions for quick transformations given a JSON document and an XSLT. Read more about XSLT transformations for JSON [here](https://www.w3.org/TR/xslt-30/#json). We will store all our data in the form of JSON documents in MongoDB collections and this is a critical module. This is a module with the following features:
+This will be a core package for the whole application and should be worked out very well. The purpose of this package is to provide functions for quick transformations given a JSON document and an XSLT. Read more about XSLT transformations for JSON [here](https://www.w3.org/TR/xslt-30/#json). We will store all our data in the form of JSON documents in MongoDB collections and this is a critical package. This is a package with the following features:
 
 * Given XSLT, convert JSON
 
@@ -108,3 +144,23 @@ Use Cases:
 * Exporting Content to EDUPUB
 * Exporting Content to NIMAS/ DAISY
 * Exporting Content to POD
+
+### Scheduled Tasks
+
+The purpose of this package is to create cron jobs that run at a particular time. This is a package with the following features:
+
+* Define a job on the server
+* Run the job automatically
+
+### AWS API
+
+We will not store _any_ data locally (where the application is installed), rather we will use S3 File server for storing files. This is a standard AWS API implementation.
+
+
+
+
+
+
+
+
+
