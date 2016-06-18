@@ -8,5 +8,4 @@ The mission envisages best of the breed technologies to attain the required proj
 
 ## Bodhi Docs
 
-* [Guide](https://bodhi-beta.com/docs/guide)
 * [Developer](https://bodhi-beta.com/docs/developer)
